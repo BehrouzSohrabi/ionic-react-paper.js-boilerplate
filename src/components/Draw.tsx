@@ -1,6 +1,6 @@
 import Paper from "paper";
 
-const Draw = () => {
+export default function Draw() {
   let myPath = new Paper.Path();
 
   Paper.view.onMouseDown = (event: any) => {
@@ -13,6 +13,4 @@ const Draw = () => {
   };
 
   Paper.install(window);
-};
-
-export default Draw;
+}

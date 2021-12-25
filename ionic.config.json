@@ -1,0 +1,7 @@
+{
+  "name": "lets-draw",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
